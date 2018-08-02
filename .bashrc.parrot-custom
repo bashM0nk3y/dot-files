@@ -157,4 +157,3 @@ fi
 
 export EDITOR=/usr/bin/vim
 export VISUAL=/usr/bin/vim
-export MS2=192.168.56.4
