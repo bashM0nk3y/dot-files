@@ -1,0 +1,77 @@
+04:15:40 PM.677: CPU Name: Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+04:15:40 PM.677: CPU Speed: 2800.398MHz
+04:15:40 PM.678: Physical Cores: 2, Logical Cores: 4
+04:15:40 PM.678: Physical Memory: 7860MB Total, 3739MB Free
+04:15:40 PM.678: Kernel Version: Linux 4.14.51-1-lts
+04:15:40 PM.678: Distribution: "Arch Linux" Unknown
+04:15:40 PM.678: Portable mode: false
+04:15:40 PM.716: OBS 21.1.1-2 (linux)
+04:15:40 PM.716: ---------------------------------
+04:15:40 PM.716: ---------------------------------
+04:15:40 PM.716: audio settings reset:
+04:15:40 PM.716: 	samples per sec: 44100
+04:15:40 PM.716: 	speakers:        2
+04:15:40 PM.722: ---------------------------------
+04:15:40 PM.722: Initializing OpenGL...
+04:15:40 PM.744: Loading up OpenGL on adapter Intel Open Source Technology Center Mesa DRI Intel(R) HD Graphics 520 (Skylake GT2) 
+04:15:40 PM.744: OpenGL loaded successfully, version 4.5 (Core Profile) Mesa 18.1.3, shading language 4.50
+04:15:40 PM.769: ---------------------------------
+04:15:40 PM.770: video settings reset:
+04:15:40 PM.770: 	base resolution:   1366x768
+04:15:40 PM.770: 	output resolution: 908x512
+04:15:40 PM.770: 	downscale filter:  Bicubic
+04:15:40 PM.770: 	fps:               20/1
+04:15:40 PM.770: 	format:            NV12
+04:15:40 PM.770: 	YUV mode:          601/Partial
+04:15:40 PM.773: Audio monitoring device:
+04:15:40 PM.773: 	name: Default
+04:15:40 PM.773: 	id: default
+04:15:40 PM.774: ---------------------------------
+04:15:40 PM.777: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+04:15:40 PM.777: 
+04:15:40 PM.777: Module '/usr//lib/obs-plugins/frontend-tools.so' not loaded
+04:15:40 PM.783: No blackmagic support
+04:15:40 PM.794: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+04:15:40 PM.794: 
+04:15:40 PM.795: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.1: cannot open shared object file: No such file or directory
+04:15:40 PM.795: 
+04:15:40 PM.795: Module '/usr//lib/obs-plugins/obs-libfdk.so' not loaded
+04:15:40 PM.803: VLC found, VLC video source enabled
+04:15:40 PM.803: ---------------------------------
+04:15:40 PM.803:   Loaded Modules:
+04:15:40 PM.803:     vlc-video.so
+04:15:40 PM.803:     text-freetype2.so
+04:15:40 PM.803:     rtmp-services.so
+04:15:40 PM.803:     obs-x264.so
+04:15:40 PM.803:     obs-transitions.so
+04:15:40 PM.803:     obs-outputs.so
+04:15:40 PM.803:     obs-filters.so
+04:15:40 PM.803:     obs-ffmpeg.so
+04:15:40 PM.803:     linux-v4l2.so
+04:15:40 PM.803:     linux-pulseaudio.so
+04:15:40 PM.803:     linux-jack.so
+04:15:40 PM.803:     linux-decklink.so
+04:15:40 PM.803:     linux-capture.so
+04:15:40 PM.803:     linux-alsa.so
+04:15:40 PM.803:     image-source.so
+04:15:40 PM.803: ---------------------------------
+04:15:40 PM.803: ==== Startup complete ===============================================
+04:15:40 PM.803: Service '' not found
+04:15:40 PM.804: All scene data cleared
+04:15:40 PM.804: ------------------------------------------------
+04:15:40 PM.807: pulse-input: Server name: 'pulseaudio 12.0'
+04:15:40 PM.807: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+04:15:40 PM.807: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+04:15:40 PM.819: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+04:15:40 PM.819: 	title: Python Fundamentals - Mozilla Firefox
+04:15:40 PM.819: 	class: Navigator
+04:15:40 PM.827: Switched to scene 'plural_sight'
+04:15:40 PM.827: ------------------------------------------------
+04:15:40 PM.828: Loaded scenes:
+04:15:40 PM.828: - scene 'Scene':
+04:15:40 PM.828: - scene 'plural_sight':
+04:15:40 PM.828:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+04:15:40 PM.828: ------------------------------------------------
+04:15:41 PM.365: adding 23 milliseconds of audio buffering, total audio buffering is now 23 milliseconds
+04:15:41 PM.668: adding 23 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+04:17:03 PM.824: Freeing OBS context data

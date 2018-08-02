@@ -1,0 +1,31 @@
+[global_config]
+  borderless = True
+  hide_from_taskbar = True
+  title_font = Ubuntu Mono 11
+  title_transmit_bg_color = "#2e3436"
+  title_transmit_fg_color = "#32aa6c"
+  title_use_system_font = False
+  window_state = fullscreen
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    allow_bold = False
+    background_color = "#1a1a1a"
+    background_darkness = 1.0
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Ubuntu Mono 11
+    foreground_color = "#2ebf94"
+    scrollback_lines = 2500
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False

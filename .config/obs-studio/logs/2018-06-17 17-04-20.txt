@@ -1,0 +1,697 @@
+05:04:20 PM.397: CPU Name: Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+05:04:20 PM.397: CPU Speed: 2963.417MHz
+05:04:20 PM.397: Physical Cores: 2, Logical Cores: 4
+05:04:20 PM.397: Physical Memory: 7860MB Total, 2793MB Free
+05:04:20 PM.397: Kernel Version: Linux 4.14.49-1-lts
+05:04:20 PM.397: Distribution: "Arch Linux" Unknown
+05:04:20 PM.399: Portable mode: false
+05:04:20 PM.436: OBS 21.1.1-2 (linux)
+05:04:20 PM.436: ---------------------------------
+05:04:20 PM.436: ---------------------------------
+05:04:20 PM.436: audio settings reset:
+05:04:20 PM.436: 	samples per sec: 44100
+05:04:20 PM.436: 	speakers:        2
+05:04:20 PM.445: ---------------------------------
+05:04:20 PM.445: Initializing OpenGL...
+05:04:20 PM.467: Loading up OpenGL on adapter Intel Open Source Technology Center Mesa DRI Intel(R) HD Graphics 520 (Skylake GT2) 
+05:04:20 PM.467: OpenGL loaded successfully, version 4.5 (Core Profile) Mesa 18.1.1, shading language 4.50
+05:04:20 PM.491: ---------------------------------
+05:04:20 PM.491: video settings reset:
+05:04:20 PM.491: 	base resolution:   1366x768
+05:04:20 PM.491: 	output resolution: 908x512
+05:04:20 PM.491: 	downscale filter:  Bicubic
+05:04:20 PM.491: 	fps:               30/1
+05:04:20 PM.491: 	format:            NV12
+05:04:20 PM.491: 	YUV mode:          601/Partial
+05:04:20 PM.496: Audio monitoring device:
+05:04:20 PM.496: 	name: Default
+05:04:20 PM.496: 	id: default
+05:04:20 PM.496: ---------------------------------
+05:04:20 PM.499: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+05:04:20 PM.499: 
+05:04:20 PM.499: Module '/usr//lib/obs-plugins/frontend-tools.so' not loaded
+05:04:20 PM.505: No blackmagic support
+05:04:20 PM.527: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+05:04:20 PM.527: 
+05:04:20 PM.528: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.1: cannot open shared object file: No such file or directory
+05:04:20 PM.528: 
+05:04:20 PM.528: Module '/usr//lib/obs-plugins/obs-libfdk.so' not loaded
+05:04:20 PM.537: VLC found, VLC video source enabled
+05:04:20 PM.537: ---------------------------------
+05:04:20 PM.537:   Loaded Modules:
+05:04:20 PM.537:     vlc-video.so
+05:04:20 PM.538:     text-freetype2.so
+05:04:20 PM.538:     rtmp-services.so
+05:04:20 PM.538:     obs-x264.so
+05:04:20 PM.538:     obs-transitions.so
+05:04:20 PM.538:     obs-outputs.so
+05:04:20 PM.538:     obs-filters.so
+05:04:20 PM.538:     obs-ffmpeg.so
+05:04:20 PM.538:     linux-v4l2.so
+05:04:20 PM.538:     linux-pulseaudio.so
+05:04:20 PM.538:     linux-jack.so
+05:04:20 PM.538:     linux-decklink.so
+05:04:20 PM.538:     linux-capture.so
+05:04:20 PM.538:     linux-alsa.so
+05:04:20 PM.538:     image-source.so
+05:04:20 PM.538: ---------------------------------
+05:04:20 PM.538: ==== Startup complete ===============================================
+05:04:20 PM.538: Service '' not found
+05:04:20 PM.540: All scene data cleared
+05:04:20 PM.540: ------------------------------------------------
+05:04:20 PM.542: pulse-input: Server name: 'pulseaudio 11.1'
+05:04:20 PM.543: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+05:04:20 PM.543: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+05:04:20 PM.554: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+05:04:20 PM.554: 	title: Technologies and Tools for CompTIA Security+ - Mozilla Firefox
+05:04:20 PM.554: 	class: Navigator
+05:04:20 PM.563: Switched to scene 'plural_sight'
+05:04:20 PM.563: ------------------------------------------------
+05:04:20 PM.563: Loaded scenes:
+05:04:20 PM.563: - scene 'Scene':
+05:04:20 PM.563: - scene 'plural_sight':
+05:04:20 PM.563:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+05:04:20 PM.563: ------------------------------------------------
+05:04:21 PM.062: adding 23 milliseconds of audio buffering, total audio buffering is now 23 milliseconds
+05:04:24 PM.245: adding 23 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+05:04:38 PM.823: Starting recording due to hotkey
+05:04:38 PM.826: ---------------------------------
+05:04:38 PM.826: [x264 encoder: 'streaming_h264'] preset: veryfast
+05:04:38 PM.826: [x264 encoder: 'streaming_h264'] settings:
+05:04:38 PM.826: 	rate_control: CBR
+05:04:38 PM.826: 	bitrate:      2500
+05:04:38 PM.826: 	buffer size:  2500
+05:04:38 PM.826: 	crf:          0
+05:04:38 PM.826: 	fps_num:      30
+05:04:38 PM.826: 	fps_den:      1
+05:04:38 PM.826: 	width:        908
+05:04:38 PM.826: 	height:       512
+05:04:38 PM.826: 	keyint:       250
+05:04:38 PM.826: 
+05:04:38 PM.836: ---------------------------------
+05:04:38 PM.838: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+05:04:38 PM.838: 
+05:04:38 PM.858: ==== Recording Start ===============================================
+05:04:38 PM.858: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/cory/Videos/2018-06-17__17-04-38.mp4'...
+05:06:43 PM.681: Stopping recording due to hotkey
+05:06:44 PM.521: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/cory/Videos/2018-06-17__17-04-38.mp4' stopped
+05:06:44 PM.521: Output 'adv_file_output': stopping
+05:06:44 PM.521: Output 'adv_file_output': Total frames output: 3747
+05:06:44 PM.521: Output 'adv_file_output': Total drawn frames: 3770
+05:06:44 PM.521: ==== Recording Stop ================================================
+05:07:33 PM.588: Starting recording due to hotkey
+05:07:33 PM.589: ---------------------------------
+05:07:33 PM.589: [x264 encoder: 'streaming_h264'] preset: veryfast
+05:07:33 PM.589: [x264 encoder: 'streaming_h264'] settings:
+05:07:33 PM.589: 	rate_control: CBR
+05:07:33 PM.589: 	bitrate:      2500
+05:07:33 PM.589: 	buffer size:  2500
+05:07:33 PM.589: 	crf:          0
+05:07:33 PM.589: 	fps_num:      30
+05:07:33 PM.589: 	fps_den:      1
+05:07:33 PM.589: 	width:        908
+05:07:33 PM.589: 	height:       512
+05:07:33 PM.589: 	keyint:       250
+05:07:33 PM.589: 
+05:07:33 PM.592: ---------------------------------
+05:07:33 PM.593: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+05:07:33 PM.593: 
+05:07:33 PM.604: ==== Recording Start ===============================================
+05:07:33 PM.604: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/cory/Videos/2018-06-17__17-07-33.mp4'...
+05:11:54 PM.360: Stopping recording due to hotkey
+05:11:55 PM.182: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/cory/Videos/2018-06-17__17-07-33.mp4' stopped
+05:11:55 PM.182: Output 'adv_file_output': stopping
+05:11:55 PM.182: Output 'adv_file_output': Total frames output: 7825
+05:11:55 PM.182: Output 'adv_file_output': Total drawn frames: 7847
+05:11:55 PM.182: ==== Recording Stop ================================================
+05:12:29 PM.056: Starting recording due to hotkey
+05:12:29 PM.060: ---------------------------------
+05:12:29 PM.060: [x264 encoder: 'streaming_h264'] preset: veryfast
+05:12:29 PM.060: [x264 encoder: 'streaming_h264'] settings:
+05:12:29 PM.060: 	rate_control: CBR
+05:12:29 PM.060: 	bitrate:      2500
+05:12:29 PM.060: 	buffer size:  2500
+05:12:29 PM.060: 	crf:          0
+05:12:29 PM.060: 	fps_num:      30
+05:12:29 PM.060: 	fps_den:      1
+05:12:29 PM.060: 	width:        908
+05:12:29 PM.060: 	height:       512
+05:12:29 PM.060: 	keyint:       250
+05:12:29 PM.060: 
+05:12:29 PM.069: ---------------------------------
+05:12:29 PM.070: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+05:12:29 PM.070: 
+05:12:29 PM.088: ==== Recording Start ===============================================
+05:12:29 PM.088: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/cory/Videos/2018-06-17__17-12-29.mp4'...
+05:12:29 PM.404: adding 23 milliseconds of audio buffering, total audio buffering is now 69 milliseconds
+05:16:18 PM.148: Stopping recording due to hotkey
+05:16:18 PM.986: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/cory/Videos/2018-06-17__17-12-29.mp4' stopped
+05:16:18 PM.986: Output 'adv_file_output': stopping
+05:16:18 PM.986: Output 'adv_file_output': Total frames output: 6874
+05:16:18 PM.986: Output 'adv_file_output': Total drawn frames: 6897
+05:16:18 PM.986: ==== Recording Stop ================================================
+05:18:20 PM.114: Starting recording due to hotkey
+05:18:20 PM.117: ---------------------------------
+05:18:20 PM.117: [x264 encoder: 'streaming_h264'] preset: veryfast
+05:18:20 PM.117: [x264 encoder: 'streaming_h264'] settings:
+05:18:20 PM.117: 	rate_control: CBR
+05:18:20 PM.117: 	bitrate:      2500
+05:18:20 PM.117: 	buffer size:  2500
+05:18:20 PM.117: 	crf:          0
+05:18:20 PM.117: 	fps_num:      30
+05:18:20 PM.117: 	fps_den:      1
+05:18:20 PM.117: 	width:        908
+05:18:20 PM.117: 	height:       512
+05:18:20 PM.117: 	keyint:       250
+05:18:20 PM.117: 
+05:18:20 PM.126: ---------------------------------
+05:18:20 PM.127: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+05:18:20 PM.127: 
+05:18:20 PM.152: ==== Recording Start ===============================================
+05:18:20 PM.152: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/cory/Videos/2018-06-17__17-18-20.mp4'...
+05:21:09 PM.472: Stopping recording due to hotkey
+05:21:10 PM.317: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/cory/Videos/2018-06-17__17-18-20.mp4' stopped
+05:21:10 PM.317: Output 'adv_file_output': stopping
+05:21:10 PM.317: Output 'adv_file_output': Total frames output: 5083
+05:21:10 PM.317: Output 'adv_file_output': Total drawn frames: 5105
+05:21:10 PM.318: ==== Recording Stop ================================================
+05:21:48 PM.582: Starting recording due to hotkey
+05:21:48 PM.589: ---------------------------------
+05:21:48 PM.589: [x264 encoder: 'streaming_h264'] preset: veryfast
+05:21:48 PM.589: [x264 encoder: 'streaming_h264'] settings:
+05:21:48 PM.589: 	rate_control: CBR
+05:21:48 PM.589: 	bitrate:      2500
+05:21:48 PM.589: 	buffer size:  2500
+05:21:48 PM.589: 	crf:          0
+05:21:48 PM.589: 	fps_num:      30
+05:21:48 PM.589: 	fps_den:      1
+05:21:48 PM.589: 	width:        908
+05:21:48 PM.589: 	height:       512
+05:21:48 PM.589: 	keyint:       250
+05:21:48 PM.589: 
+05:21:48 PM.597: ---------------------------------
+05:21:48 PM.598: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+05:21:48 PM.598: 
+05:21:48 PM.620: ==== Recording Start ===============================================
+05:21:48 PM.620: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/cory/Videos/2018-06-17__17-21-48.mp4'...
+05:21:55 PM.034: Stopping recording due to hotkey
+05:21:55 PM.871: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/cory/Videos/2018-06-17__17-21-48.mp4' stopped
+05:21:55 PM.871: Output 'adv_file_output': stopping
+05:21:55 PM.871: Output 'adv_file_output': Total frames output: 196
+05:21:55 PM.871: Output 'adv_file_output': Total drawn frames: 218
+05:21:55 PM.872: ==== Recording Stop ================================================
+05:22:45 PM.145: Starting recording due to hotkey
+05:22:45 PM.149: ---------------------------------
+05:22:45 PM.149: [x264 encoder: 'streaming_h264'] preset: veryfast
+05:22:45 PM.150: [x264 encoder: 'streaming_h264'] settings:
+05:22:45 PM.150: 	rate_control: CBR
+05:22:45 PM.150: 	bitrate:      2500
+05:22:45 PM.150: 	buffer size:  2500
+05:22:45 PM.150: 	crf:          0
+05:22:45 PM.150: 	fps_num:      30
+05:22:45 PM.150: 	fps_den:      1
+05:22:45 PM.150: 	width:        908
+05:22:45 PM.150: 	height:       512
+05:22:45 PM.150: 	keyint:       250
+05:22:45 PM.150: 
+05:22:45 PM.157: ---------------------------------
+05:22:45 PM.158: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+05:22:45 PM.158: 
+05:22:45 PM.183: ==== Recording Start ===============================================
+05:22:45 PM.183: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/cory/Videos/2018-06-17__17-22-45.mp4'...
+05:24:14 PM.327: Stopping recording due to hotkey
+05:24:15 PM.136: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/cory/Videos/2018-06-17__17-22-45.mp4' stopped
+05:24:15 PM.136: Output 'adv_file_output': stopping
+05:24:15 PM.136: Output 'adv_file_output': Total frames output: 2677
+05:24:15 PM.136: Output 'adv_file_output': Total drawn frames: 2699
+05:24:15 PM.136: ==== Recording Stop ================================================
+05:24:42 PM.885: Starting recording due to hotkey
+05:24:42 PM.889: ---------------------------------
+05:24:42 PM.889: [x264 encoder: 'streaming_h264'] preset: veryfast
+05:24:42 PM.889: [x264 encoder: 'streaming_h264'] settings:
+05:24:42 PM.889: 	rate_control: CBR
+05:24:42 PM.889: 	bitrate:      2500
+05:24:42 PM.889: 	buffer size:  2500
+05:24:42 PM.889: 	crf:          0
+05:24:42 PM.889: 	fps_num:      30
+05:24:42 PM.889: 	fps_den:      1
+05:24:42 PM.889: 	width:        908
+05:24:42 PM.889: 	height:       512
+05:24:42 PM.889: 	keyint:       250
+05:24:42 PM.889: 
+05:24:42 PM.896: ---------------------------------
+05:24:42 PM.896: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+05:24:42 PM.896: 
+05:24:42 PM.910: ==== Recording Start ===============================================
+05:24:42 PM.910: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/cory/Videos/2018-06-17__17-24-42.mp4'...
+05:28:28 PM.688: Stopping recording due to hotkey
+05:28:29 PM.527: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/cory/Videos/2018-06-17__17-24-42.mp4' stopped
+05:28:29 PM.527: Output 'adv_file_output': stopping
+05:28:29 PM.527: Output 'adv_file_output': Total frames output: 6777
+05:28:29 PM.527: Output 'adv_file_output': Total drawn frames: 6798
+05:28:29 PM.528: ==== Recording Stop ================================================
+05:29:18 PM.444: Starting recording due to hotkey
+05:29:18 PM.447: ---------------------------------
+05:29:18 PM.447: [x264 encoder: 'streaming_h264'] preset: veryfast
+05:29:18 PM.447: [x264 encoder: 'streaming_h264'] settings:
+05:29:18 PM.447: 	rate_control: CBR
+05:29:18 PM.447: 	bitrate:      2500
+05:29:18 PM.447: 	buffer size:  2500
+05:29:18 PM.447: 	crf:          0
+05:29:18 PM.447: 	fps_num:      30
+05:29:18 PM.447: 	fps_den:      1
+05:29:18 PM.447: 	width:        908
+05:29:18 PM.447: 	height:       512
+05:29:18 PM.447: 	keyint:       250
+05:29:18 PM.447: 
+05:29:18 PM.451: ---------------------------------
+05:29:18 PM.451: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+05:29:18 PM.451: 
+05:29:18 PM.470: ==== Recording Start ===============================================
+05:29:18 PM.470: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/cory/Videos/2018-06-17__17-29-18.mp4'...
+05:33:05 PM.471: Stopping recording due to hotkey
+05:33:06 PM.301: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/cory/Videos/2018-06-17__17-29-18.mp4' stopped
+05:33:06 PM.301: Output 'adv_file_output': stopping
+05:33:06 PM.301: Output 'adv_file_output': Total frames output: 6814
+05:33:06 PM.301: Output 'adv_file_output': Total drawn frames: 6835
+05:33:06 PM.301: ==== Recording Stop ================================================
+05:37:39 PM.408: Starting recording due to hotkey
+05:37:39 PM.413: ---------------------------------
+05:37:39 PM.413: [x264 encoder: 'streaming_h264'] preset: veryfast
+05:37:39 PM.413: [x264 encoder: 'streaming_h264'] settings:
+05:37:39 PM.413: 	rate_control: CBR
+05:37:39 PM.413: 	bitrate:      2500
+05:37:39 PM.413: 	buffer size:  2500
+05:37:39 PM.413: 	crf:          0
+05:37:39 PM.413: 	fps_num:      30
+05:37:39 PM.413: 	fps_den:      1
+05:37:39 PM.413: 	width:        908
+05:37:39 PM.413: 	height:       512
+05:37:39 PM.413: 	keyint:       250
+05:37:39 PM.413: 
+05:37:39 PM.419: ---------------------------------
+05:37:39 PM.419: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+05:37:39 PM.419: 
+05:37:39 PM.452: ==== Recording Start ===============================================
+05:37:39 PM.453: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/cory/Videos/2018-06-17__17-37-39.mp4'...
+05:37:43 PM.742: Stopping recording due to hotkey
+05:37:44 PM.575: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/cory/Videos/2018-06-17__17-37-39.mp4' stopped
+05:37:44 PM.575: Output 'adv_file_output': stopping
+05:37:44 PM.575: Output 'adv_file_output': Total frames output: 132
+05:37:44 PM.575: Output 'adv_file_output': Total drawn frames: 154
+05:37:44 PM.576: ==== Recording Stop ================================================
+05:37:58 PM.599: Starting recording due to hotkey
+05:37:58 PM.605: ---------------------------------
+05:37:58 PM.605: [x264 encoder: 'streaming_h264'] preset: veryfast
+05:37:58 PM.605: [x264 encoder: 'streaming_h264'] settings:
+05:37:58 PM.605: 	rate_control: CBR
+05:37:58 PM.605: 	bitrate:      2500
+05:37:58 PM.605: 	buffer size:  2500
+05:37:58 PM.605: 	crf:          0
+05:37:58 PM.605: 	fps_num:      30
+05:37:58 PM.605: 	fps_den:      1
+05:37:58 PM.605: 	width:        908
+05:37:58 PM.605: 	height:       512
+05:37:58 PM.605: 	keyint:       250
+05:37:58 PM.605: 
+05:37:58 PM.612: ---------------------------------
+05:37:58 PM.613: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+05:37:58 PM.613: 
+05:37:58 PM.647: ==== Recording Start ===============================================
+05:37:58 PM.647: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/cory/Videos/2018-06-17__17-37-58.mp4'...
+05:39:17 PM.324: Stopping recording due to hotkey
+05:39:18 PM.140: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/cory/Videos/2018-06-17__17-37-58.mp4' stopped
+05:39:18 PM.140: Output 'adv_file_output': stopping
+05:39:18 PM.140: Output 'adv_file_output': Total frames output: 2364
+05:39:18 PM.140: Output 'adv_file_output': Total drawn frames: 2385
+05:39:18 PM.140: ==== Recording Stop ================================================
+05:39:39 PM.510: Starting recording due to hotkey
+05:39:39 PM.514: ---------------------------------
+05:39:39 PM.515: [x264 encoder: 'streaming_h264'] preset: veryfast
+05:39:39 PM.515: [x264 encoder: 'streaming_h264'] settings:
+05:39:39 PM.515: 	rate_control: CBR
+05:39:39 PM.515: 	bitrate:      2500
+05:39:39 PM.515: 	buffer size:  2500
+05:39:39 PM.515: 	crf:          0
+05:39:39 PM.515: 	fps_num:      30
+05:39:39 PM.515: 	fps_den:      1
+05:39:39 PM.515: 	width:        908
+05:39:39 PM.515: 	height:       512
+05:39:39 PM.515: 	keyint:       250
+05:39:39 PM.515: 
+05:39:39 PM.523: ---------------------------------
+05:39:39 PM.523: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+05:39:39 PM.523: 
+05:39:39 PM.561: ==== Recording Start ===============================================
+05:39:39 PM.561: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/cory/Videos/2018-06-17__17-39-39.mp4'...
+05:40:41 PM.702: Stopping recording due to hotkey
+05:40:42 PM.542: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/cory/Videos/2018-06-17__17-39-39.mp4' stopped
+05:40:42 PM.542: Output 'adv_file_output': stopping
+05:40:42 PM.542: Output 'adv_file_output': Total frames output: 1868
+05:40:42 PM.544: Output 'adv_file_output': Total drawn frames: 1890
+05:40:42 PM.544: ==== Recording Stop ================================================
+05:41:21 PM.321: Starting recording due to hotkey
+05:41:21 PM.322: ---------------------------------
+05:41:21 PM.322: [x264 encoder: 'streaming_h264'] preset: veryfast
+05:41:21 PM.322: [x264 encoder: 'streaming_h264'] settings:
+05:41:21 PM.322: 	rate_control: CBR
+05:41:21 PM.322: 	bitrate:      2500
+05:41:21 PM.322: 	buffer size:  2500
+05:41:21 PM.322: 	crf:          0
+05:41:21 PM.322: 	fps_num:      30
+05:41:21 PM.322: 	fps_den:      1
+05:41:21 PM.322: 	width:        908
+05:41:21 PM.322: 	height:       512
+05:41:21 PM.322: 	keyint:       250
+05:41:21 PM.322: 
+05:41:21 PM.324: ---------------------------------
+05:41:21 PM.324: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+05:41:21 PM.324: 
+05:41:21 PM.337: ==== Recording Start ===============================================
+05:41:21 PM.337: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/cory/Videos/2018-06-17__17-41-21.mp4'...
+05:42:02 PM.742: Stopping recording due to hotkey
+05:42:03 PM.573: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/cory/Videos/2018-06-17__17-41-21.mp4' stopped
+05:42:03 PM.573: Output 'adv_file_output': stopping
+05:42:03 PM.573: Output 'adv_file_output': Total frames output: 1245
+05:42:03 PM.573: Output 'adv_file_output': Total drawn frames: 1267
+05:42:03 PM.574: ==== Recording Stop ================================================
+05:42:24 PM.239: Starting recording due to hotkey
+05:42:24 PM.244: ---------------------------------
+05:42:24 PM.244: [x264 encoder: 'streaming_h264'] preset: veryfast
+05:42:24 PM.245: [x264 encoder: 'streaming_h264'] settings:
+05:42:24 PM.245: 	rate_control: CBR
+05:42:24 PM.245: 	bitrate:      2500
+05:42:24 PM.245: 	buffer size:  2500
+05:42:24 PM.245: 	crf:          0
+05:42:24 PM.245: 	fps_num:      30
+05:42:24 PM.245: 	fps_den:      1
+05:42:24 PM.245: 	width:        908
+05:42:24 PM.245: 	height:       512
+05:42:24 PM.245: 	keyint:       250
+05:42:24 PM.245: 
+05:42:24 PM.254: ---------------------------------
+05:42:24 PM.255: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+05:42:24 PM.255: 
+05:42:24 PM.280: ==== Recording Start ===============================================
+05:42:24 PM.281: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/cory/Videos/2018-06-17__17-42-24.mp4'...
+05:43:22 PM.230: Stopping recording due to hotkey
+05:43:23 PM.067: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/cory/Videos/2018-06-17__17-42-24.mp4' stopped
+05:43:23 PM.067: Output 'adv_file_output': stopping
+05:43:23 PM.067: Output 'adv_file_output': Total frames output: 1743
+05:43:23 PM.067: Output 'adv_file_output': Total drawn frames: 1764
+05:43:23 PM.067: ==== Recording Stop ================================================
+05:43:49 PM.037: Starting recording due to hotkey
+05:43:49 PM.039: ---------------------------------
+05:43:49 PM.039: [x264 encoder: 'streaming_h264'] preset: veryfast
+05:43:49 PM.039: [x264 encoder: 'streaming_h264'] settings:
+05:43:49 PM.039: 	rate_control: CBR
+05:43:49 PM.039: 	bitrate:      2500
+05:43:49 PM.039: 	buffer size:  2500
+05:43:49 PM.039: 	crf:          0
+05:43:49 PM.039: 	fps_num:      30
+05:43:49 PM.039: 	fps_den:      1
+05:43:49 PM.039: 	width:        908
+05:43:49 PM.039: 	height:       512
+05:43:49 PM.039: 	keyint:       250
+05:43:49 PM.039: 
+05:43:49 PM.042: ---------------------------------
+05:43:49 PM.042: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+05:43:49 PM.042: 
+05:43:49 PM.053: ==== Recording Start ===============================================
+05:43:49 PM.053: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/cory/Videos/2018-06-17__17-43-49.mp4'...
+05:45:23 PM.686: Stopping recording due to hotkey
+05:45:24 PM.503: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/cory/Videos/2018-06-17__17-43-49.mp4' stopped
+05:45:24 PM.503: Output 'adv_file_output': stopping
+05:45:24 PM.503: Output 'adv_file_output': Total frames output: 2842
+05:45:24 PM.503: Output 'adv_file_output': Total drawn frames: 2864
+05:45:24 PM.503: ==== Recording Stop ================================================
+05:45:46 PM.949: Starting recording due to hotkey
+05:45:46 PM.952: ---------------------------------
+05:45:46 PM.953: [x264 encoder: 'streaming_h264'] preset: veryfast
+05:45:46 PM.953: [x264 encoder: 'streaming_h264'] settings:
+05:45:46 PM.953: 	rate_control: CBR
+05:45:46 PM.953: 	bitrate:      2500
+05:45:46 PM.953: 	buffer size:  2500
+05:45:46 PM.953: 	crf:          0
+05:45:46 PM.953: 	fps_num:      30
+05:45:46 PM.953: 	fps_den:      1
+05:45:46 PM.953: 	width:        908
+05:45:46 PM.953: 	height:       512
+05:45:46 PM.953: 	keyint:       250
+05:45:46 PM.953: 
+05:45:46 PM.960: ---------------------------------
+05:45:46 PM.961: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+05:45:46 PM.961: 
+05:45:47 PM.007: ==== Recording Start ===============================================
+05:45:47 PM.007: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/cory/Videos/2018-06-17__17-45-46.mp4'...
+05:47:02 PM.419: Stopping recording due to hotkey
+05:47:03 PM.247: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/cory/Videos/2018-06-17__17-45-46.mp4' stopped
+05:47:03 PM.247: Output 'adv_file_output': stopping
+05:47:03 PM.247: Output 'adv_file_output': Total frames output: 2266
+05:47:03 PM.247: Output 'adv_file_output': Total drawn frames: 2287
+05:47:03 PM.247: ==== Recording Stop ================================================
+05:47:36 PM.678: Starting recording due to hotkey
+05:47:36 PM.681: ---------------------------------
+05:47:36 PM.681: [x264 encoder: 'streaming_h264'] preset: veryfast
+05:47:36 PM.681: [x264 encoder: 'streaming_h264'] settings:
+05:47:36 PM.681: 	rate_control: CBR
+05:47:36 PM.681: 	bitrate:      2500
+05:47:36 PM.681: 	buffer size:  2500
+05:47:36 PM.681: 	crf:          0
+05:47:36 PM.681: 	fps_num:      30
+05:47:36 PM.681: 	fps_den:      1
+05:47:36 PM.681: 	width:        908
+05:47:36 PM.681: 	height:       512
+05:47:36 PM.681: 	keyint:       250
+05:47:36 PM.681: 
+05:47:36 PM.685: ---------------------------------
+05:47:36 PM.686: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+05:47:36 PM.686: 
+05:47:36 PM.713: ==== Recording Start ===============================================
+05:47:36 PM.713: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/cory/Videos/2018-06-17__17-47-36.mp4'...
+05:48:38 PM.246: Stopping recording due to hotkey
+05:48:39 PM.067: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/cory/Videos/2018-06-17__17-47-36.mp4' stopped
+05:48:39 PM.067: Output 'adv_file_output': stopping
+05:48:39 PM.067: Output 'adv_file_output': Total frames output: 1850
+05:48:39 PM.067: Output 'adv_file_output': Total drawn frames: 1871
+05:48:39 PM.067: ==== Recording Stop ================================================
+05:49:00 PM.716: Starting recording due to hotkey
+05:49:00 PM.722: ---------------------------------
+05:49:00 PM.722: [x264 encoder: 'streaming_h264'] preset: veryfast
+05:49:00 PM.722: [x264 encoder: 'streaming_h264'] settings:
+05:49:00 PM.722: 	rate_control: CBR
+05:49:00 PM.722: 	bitrate:      2500
+05:49:00 PM.722: 	buffer size:  2500
+05:49:00 PM.722: 	crf:          0
+05:49:00 PM.722: 	fps_num:      30
+05:49:00 PM.722: 	fps_den:      1
+05:49:00 PM.722: 	width:        908
+05:49:00 PM.722: 	height:       512
+05:49:00 PM.722: 	keyint:       250
+05:49:00 PM.722: 
+05:49:00 PM.733: ---------------------------------
+05:49:00 PM.734: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+05:49:00 PM.734: 
+05:49:00 PM.755: ==== Recording Start ===============================================
+05:49:00 PM.755: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/cory/Videos/2018-06-17__17-49-00.mp4'...
+05:50:29 PM.442: Stopping recording due to hotkey
+05:50:30 PM.272: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/cory/Videos/2018-06-17__17-49-00.mp4' stopped
+05:50:30 PM.272: Output 'adv_file_output': stopping
+05:50:30 PM.272: Output 'adv_file_output': Total frames output: 2664
+05:50:30 PM.272: Output 'adv_file_output': Total drawn frames: 2686
+05:50:30 PM.272: ==== Recording Stop ================================================
+05:50:53 PM.783: Starting recording due to hotkey
+05:50:53 PM.789: ---------------------------------
+05:50:53 PM.789: [x264 encoder: 'streaming_h264'] preset: veryfast
+05:50:53 PM.790: [x264 encoder: 'streaming_h264'] settings:
+05:50:53 PM.790: 	rate_control: CBR
+05:50:53 PM.790: 	bitrate:      2500
+05:50:53 PM.790: 	buffer size:  2500
+05:50:53 PM.790: 	crf:          0
+05:50:53 PM.790: 	fps_num:      30
+05:50:53 PM.790: 	fps_den:      1
+05:50:53 PM.790: 	width:        908
+05:50:53 PM.790: 	height:       512
+05:50:53 PM.790: 	keyint:       250
+05:50:53 PM.790: 
+05:50:53 PM.798: ---------------------------------
+05:50:53 PM.799: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+05:50:53 PM.799: 
+05:50:53 PM.821: ==== Recording Start ===============================================
+05:50:53 PM.821: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/cory/Videos/2018-06-17__17-50-53.mp4'...
+05:53:46 PM.945: Stopping recording due to hotkey
+05:53:47 PM.780: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/cory/Videos/2018-06-17__17-50-53.mp4' stopped
+05:53:47 PM.780: Output 'adv_file_output': stopping
+05:53:47 PM.780: Output 'adv_file_output': Total frames output: 5198
+05:53:47 PM.780: Output 'adv_file_output': Total drawn frames: 5219
+05:53:47 PM.780: ==== Recording Stop ================================================
+06:01:17 PM.298: Starting recording due to hotkey
+06:01:17 PM.302: ---------------------------------
+06:01:17 PM.303: [x264 encoder: 'streaming_h264'] preset: veryfast
+06:01:17 PM.303: [x264 encoder: 'streaming_h264'] settings:
+06:01:17 PM.303: 	rate_control: CBR
+06:01:17 PM.303: 	bitrate:      2500
+06:01:17 PM.303: 	buffer size:  2500
+06:01:17 PM.303: 	crf:          0
+06:01:17 PM.303: 	fps_num:      30
+06:01:17 PM.303: 	fps_den:      1
+06:01:17 PM.303: 	width:        908
+06:01:17 PM.303: 	height:       512
+06:01:17 PM.303: 	keyint:       250
+06:01:17 PM.303: 
+06:01:17 PM.306: ---------------------------------
+06:01:17 PM.307: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+06:01:17 PM.307: 
+06:01:17 PM.326: ==== Recording Start ===============================================
+06:01:17 PM.326: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/cory/Videos/2018-06-17__18-01-17.mp4'...
+06:03:10 PM.792: Stopping recording due to hotkey
+06:03:11 PM.609: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/cory/Videos/2018-06-17__18-01-17.mp4' stopped
+06:03:11 PM.609: Output 'adv_file_output': stopping
+06:03:11 PM.609: Output 'adv_file_output': Total frames output: 3407
+06:03:11 PM.609: Output 'adv_file_output': Total drawn frames: 3429
+06:03:11 PM.609: ==== Recording Stop ================================================
+06:06:54 PM.894: Starting recording due to hotkey
+06:06:54 PM.897: ---------------------------------
+06:06:54 PM.898: [x264 encoder: 'streaming_h264'] preset: veryfast
+06:06:54 PM.898: [x264 encoder: 'streaming_h264'] settings:
+06:06:54 PM.898: 	rate_control: CBR
+06:06:54 PM.898: 	bitrate:      2500
+06:06:54 PM.898: 	buffer size:  2500
+06:06:54 PM.898: 	crf:          0
+06:06:54 PM.898: 	fps_num:      30
+06:06:54 PM.898: 	fps_den:      1
+06:06:54 PM.898: 	width:        908
+06:06:54 PM.898: 	height:       512
+06:06:54 PM.898: 	keyint:       250
+06:06:54 PM.898: 
+06:06:54 PM.903: ---------------------------------
+06:06:54 PM.904: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+06:06:54 PM.904: 
+06:06:54 PM.928: ==== Recording Start ===============================================
+06:06:54 PM.928: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/cory/Videos/2018-06-17__18-06-54.mp4'...
+06:08:25 PM.362: Stopping recording due to hotkey
+06:08:26 PM.202: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/cory/Videos/2018-06-17__18-06-54.mp4' stopped
+06:08:26 PM.202: Output 'adv_file_output': stopping
+06:08:26 PM.202: Output 'adv_file_output': Total frames output: 2717
+06:08:26 PM.202: Output 'adv_file_output': Total drawn frames: 2739
+06:08:26 PM.203: ==== Recording Stop ================================================
+06:11:08 PM.827: Starting recording due to hotkey
+06:11:08 PM.829: ---------------------------------
+06:11:08 PM.829: [x264 encoder: 'streaming_h264'] preset: veryfast
+06:11:08 PM.829: [x264 encoder: 'streaming_h264'] settings:
+06:11:08 PM.829: 	rate_control: CBR
+06:11:08 PM.829: 	bitrate:      2500
+06:11:08 PM.829: 	buffer size:  2500
+06:11:08 PM.829: 	crf:          0
+06:11:08 PM.829: 	fps_num:      30
+06:11:08 PM.829: 	fps_den:      1
+06:11:08 PM.829: 	width:        908
+06:11:08 PM.829: 	height:       512
+06:11:08 PM.829: 	keyint:       250
+06:11:08 PM.829: 
+06:11:08 PM.834: ---------------------------------
+06:11:08 PM.834: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+06:11:08 PM.834: 
+06:11:08 PM.856: ==== Recording Start ===============================================
+06:11:08 PM.856: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/cory/Videos/2018-06-17__18-11-08.mp4'...
+06:12:36 PM.727: Stopping recording due to hotkey
+06:12:37 PM.555: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/cory/Videos/2018-06-17__18-11-08.mp4' stopped
+06:12:37 PM.555: Output 'adv_file_output': stopping
+06:12:37 PM.555: Output 'adv_file_output': Total frames output: 2639
+06:12:37 PM.555: Output 'adv_file_output': Total drawn frames: 2661
+06:12:37 PM.556: ==== Recording Stop ================================================
+06:13:04 PM.611: Starting recording due to hotkey
+06:13:04 PM.620: ---------------------------------
+06:13:04 PM.620: [x264 encoder: 'streaming_h264'] preset: veryfast
+06:13:04 PM.620: [x264 encoder: 'streaming_h264'] settings:
+06:13:04 PM.620: 	rate_control: CBR
+06:13:04 PM.620: 	bitrate:      2500
+06:13:04 PM.620: 	buffer size:  2500
+06:13:04 PM.620: 	crf:          0
+06:13:04 PM.620: 	fps_num:      30
+06:13:04 PM.620: 	fps_den:      1
+06:13:04 PM.620: 	width:        908
+06:13:04 PM.620: 	height:       512
+06:13:04 PM.620: 	keyint:       250
+06:13:04 PM.620: 
+06:13:04 PM.626: ---------------------------------
+06:13:04 PM.627: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2, channel_layout: 3
+06:13:04 PM.627: 
+06:13:04 PM.657: ==== Recording Start ===============================================
+06:13:04 PM.657: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/cory/Videos/2018-06-17__18-13-04.mp4'...
+06:14:11 PM.796: Stopping recording due to hotkey
+06:14:12 PM.640: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/cory/Videos/2018-06-17__18-13-04.mp4' stopped
+06:14:12 PM.640: Output 'adv_file_output': stopping
+06:14:12 PM.640: Output 'adv_file_output': Total frames output: 2019
+06:14:12 PM.640: Output 'adv_file_output': Total drawn frames: 2040
+06:14:12 PM.640: ==== Recording Stop ================================================
+06:16:42 PM.477: ==== Shutting down ==================================================
+06:16:42 PM.484: Switched to scene '(null)'
+06:16:42 PM.487: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+06:16:42 PM.487: pulse-input: Got 1023949 packets with 191843334 frames
+06:16:42 PM.488: All scene data cleared
+06:16:42 PM.488: ------------------------------------------------
+06:16:42 PM.544: Freeing OBS context data
+06:16:42 PM.563: == Profiler Results =============================
+06:16:42 PM.563: run_program_init: 377.965 ms
+06:16:42 PM.564:  ┣OBSApp::AppInit: 3.1 ms
+06:16:42 PM.564:  ┃ ┗OBSApp::InitLocale: 1.37 ms
+06:16:42 PM.564:  ┗OBSApp::OBSInit: 293.355 ms
+06:16:42 PM.564:    ┣obs_startup: 27.792 ms
+06:16:42 PM.564:    ┗OBSBasic::OBSInit: 191.541 ms
+06:16:42 PM.564:      ┣OBSBasic::InitBasicConfig: 0.078 ms
+06:16:42 PM.564:      ┣OBSBasic::ResetAudio: 0.126 ms
+06:16:42 PM.564:      ┣OBSBasic::ResetVideo: 59.315 ms
+06:16:42 PM.564:      ┣OBSBasic::InitOBSCallbacks: 0.004 ms
+06:16:42 PM.564:      ┣OBSBasic::InitHotkeys: 0.037 ms
+06:16:42 PM.564:      ┣obs_load_all_modules: 41.495 ms
+06:16:42 PM.564:      ┃ ┣obs_init_module(image-source.so): 0.002 ms
+06:16:42 PM.564:      ┃ ┣obs_init_module(linux-alsa.so): 0.001 ms
+06:16:42 PM.564:      ┃ ┣obs_init_module(linux-capture.so): 0.217 ms
+06:16:42 PM.564:      ┃ ┣obs_init_module(linux-decklink.so): 0.077 ms
+06:16:42 PM.564:      ┃ ┣obs_init_module(linux-jack.so): 0.001 ms
+06:16:42 PM.564:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.006 ms
+06:16:42 PM.564:      ┃ ┣obs_init_module(linux-v4l2.so): 0.001 ms
+06:16:42 PM.564:      ┃ ┣obs_init_module(obs-ffmpeg.so): 0.217 ms
+06:16:42 PM.564:      ┃ ┃ ┗nvenc_check: 0.211 ms
+06:16:42 PM.564:      ┃ ┣obs_init_module(obs-filters.so): 0.009 ms
+06:16:42 PM.564:      ┃ ┣obs_init_module(obs-outputs.so): 0.003 ms
+06:16:42 PM.564:      ┃ ┣obs_init_module(obs-transitions.so): 0.01 ms
+06:16:42 PM.564:      ┃ ┣obs_init_module(obs-x264.so): 0.001 ms
+06:16:42 PM.564:      ┃ ┣obs_init_module(rtmp-services.so): 0.387 ms
+06:16:42 PM.564:      ┃ ┣obs_init_module(text-freetype2.so): 0.008 ms
+06:16:42 PM.564:      ┃ ┗obs_init_module(vlc-video.so): 2.137 ms
+06:16:42 PM.564:      ┣OBSBasic::ResetOutputs: 0.608 ms
+06:16:42 PM.564:      ┣OBSBasic::CreateHotkeys: 0.147 ms
+06:16:42 PM.564:      ┣OBSBasic::InitService: 0.822 ms
+06:16:42 PM.564:      ┣OBSBasic::InitPrimitives: 0.102 ms
+06:16:42 PM.564:      ┗OBSBasic::Load: 23.964 ms
+06:16:42 PM.564: obs_hotkey_thread(25 ms): min=0.052 ms, median=0.316 ms, max=38.252 ms, 99th percentile=3.717 ms, 99.9248% below 25 ms
+06:16:42 PM.564: audio_thread(Audio): min=0 ms, median=0.639 ms, max=47.299 ms, 99th percentile=8.043 ms
+06:16:42 PM.564:  ┗receive_audio: min=0.002 ms, median=1.44 ms, max=38.528 ms, 99th percentile=9.277 ms, 0.591317 calls per parent call
+06:16:42 PM.564:    ┣buffer_audio: min=0.001 ms, median=0.002 ms, max=7.58 ms, 99th percentile=0.01 ms
+06:16:42 PM.564:    ┗do_encode: min=0.015 ms, median=1.431 ms, max=38.373 ms, 99th percentile=9.264 ms
+06:16:42 PM.564:      ┗encode(Track1): min=0.014 ms, median=1.402 ms, max=38.357 ms, 99th percentile=9.034 ms
+06:16:42 PM.564: obs_graphics_thread(33.3333 ms): min=0.598 ms, median=2.951 ms, max=88.75 ms, 99th percentile=12.645 ms, 99.9539% below 33.333 ms
+06:16:42 PM.564:  ┣tick_sources: min=0 ms, median=0.88 ms, max=45.941 ms, 99th percentile=4.673 ms
+06:16:42 PM.564:  ┣output_frame: min=0.247 ms, median=0.89 ms, max=28.508 ms, 99th percentile=3.323 ms
+06:16:42 PM.564:  ┃ ┣gs_context(video->graphics): min=0.152 ms, median=0.626 ms, max=26.119 ms, 99th percentile=1.912 ms
+06:16:42 PM.564:  ┃ ┃ ┣render_video: min=0.121 ms, median=0.492 ms, max=11.209 ms, 99th percentile=1.429 ms
+06:16:42 PM.564:  ┃ ┃ ┃ ┣render_main_texture: min=0.03 ms, median=0.255 ms, max=10.825 ms, 99th percentile=0.725 ms
+06:16:42 PM.564:  ┃ ┃ ┃ ┣render_output_texture: min=0.002 ms, median=0.1 ms, max=9.372 ms, 99th percentile=0.34 ms
+06:16:42 PM.564:  ┃ ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.074 ms, max=7.431 ms, 99th percentile=0.266 ms
+06:16:42 PM.564:  ┃ ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.037 ms, max=8.69 ms, 99th percentile=0.106 ms
+06:16:42 PM.564:  ┃ ┃ ┣download_frame: min=0 ms, median=0.007 ms, max=6.511 ms, 99th percentile=0.02 ms
+06:16:42 PM.564:  ┃ ┃ ┗gs_flush: min=0.021 ms, median=0.084 ms, max=23.279 ms, 99th percentile=0.415 ms
+06:16:42 PM.564:  ┃ ┗output_video_data: min=0.076 ms, median=0.244 ms, max=26.878 ms, 99th percentile=1.926 ms
+06:16:42 PM.564:  ┗render_displays: min=0.004 ms, median=1.026 ms, max=39.317 ms, 99th percentile=7.768 ms
+06:16:42 PM.564: video_thread(video): min=0 ms, median=0.804 ms, max=43.253 ms, 99th percentile=4.306 ms
+06:16:42 PM.564:  ┗receive_video: min=0.001 ms, median=1.373 ms, max=43.249 ms, 99th percentile=5.287 ms, 0.56379 calls per parent call
+06:16:42 PM.564:    ┗do_encode: min=0.406 ms, median=1.371 ms, max=43.247 ms, 99th percentile=5.286 ms
+06:16:42 PM.565:      ┗encode(streaming_h264): min=0.397 ms, median=1.335 ms, max=43.23 ms, 99th percentile=4.935 ms
+06:16:42 PM.565: =================================================
+06:16:42 PM.565: == Profiler Time Between Calls ==================
+06:16:42 PM.565: obs_hotkey_thread(25 ms): min=25.094 ms, median=25.446 ms, max=63.38 ms, 58.3208% within ±2% of 25 ms (0% lower, 41.6792% higher)
+06:16:42 PM.565: obs_graphics_thread(33.3333 ms): min=9.705 ms, median=33.333 ms, max=88.798 ms, 96.6183% within ±2% of 33.333 ms (1.69585% lower, 1.68587% higher)
+06:16:42 PM.565: =================================================
+06:16:42 PM.721: Number of memory leaks: 0

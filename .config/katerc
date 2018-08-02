@@ -1,0 +1,43 @@
+[General]
+Config Revision=10
+Days Meta Infos=30
+Last Session=
+Modified Notification=false
+Recent File List Entry Count=10
+Restore Window Configuration=true
+Save Meta Infos=true
+Show Full Path in Title=true
+Show Menu Bar=false
+Show Status Bar=true
+Show Tab Bar=false
+Startup Session=new
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/bin/vimx,file:$HOME/Documents/RSCC_info/fall_2018_enrolled_so_far.txt,file:$HOME/Desktop/package_list.txt
+Recent URLs[$e]=file:$HOME/bin/,file:$HOME/Documents/RSCC_info/,file:$HOME/Documents/python_for_linux_sysadmins/
+
+[KTextEditor::Search]
+Replace History=>&2
+Search History=1>&2
+
+[MainWindow]
+Height 768=213
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAesAAAK9AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=680
+
+[Notification Messages]
+HideMenuBarWarning=false
+Kate hide sidebars notification message=false
+
+[filetree]
+editShade=33,84,111
+listMode=false
+shadingEnabled=true
+showFullPathOnRoots=false
+sortRole=0
+viewShade=66,73,74
+
+[project]
+autorepository=git
