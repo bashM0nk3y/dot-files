@@ -148,7 +148,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# check if local bin folder exist
+# check if local bin folder exists
 # $HOME/bin
 # prepend it to $PATH if so
 if [ -d $HOME/bin ]; then
