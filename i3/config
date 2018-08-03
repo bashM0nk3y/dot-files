@@ -181,12 +181,16 @@ client.urgent           $urgent-bg      $urgent-bg      $text-color     #00ff00
 # finds out, if available)
 bar {
     status_command i3status
-    mode dock
     position top
     strip_workspace_numbers yes
     #font pango:xos4 Terminus medium 9
     separator_symbol "]  ["
     tray_output primary
+    tray_padding 0
+    mode dock
+#    mode hide
+#    hidden_state hide
+#    modifier Mod4
 
     colors {
         #Where      #Color
@@ -201,7 +205,12 @@ bar {
 }
 
 ### Custom stuff ###
-bindsym $mod+Shift+x exec i3lock --color $bg-color
+force_display_urgency_hint 500 ms
+focus_follows_mouse no
+bindsym $mod+b bar mode toggle
+for_window [class="(?i)firefox"] border none
+bindsym $mod+t border toggle
+bindsym $mod+Shift+x exec --no-startup-id "i3lock -c 000000"
 popup_during_fullscreen smart
 hide_edge_borders smart
 exec --no-startup-id i3-msg 'workspace 10:web; exec /usr/bin/firefox; workspace 9:terminal'
@@ -219,6 +228,6 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute s
 
 # Sreen brightness controls
 # increase screen brightness
-bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 20 
+bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10
 # decrease screen brightness
-bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 20 
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10
