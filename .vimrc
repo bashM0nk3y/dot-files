@@ -121,3 +121,4 @@ nnoremap <S-Down> <C-w>-
 " keeps visual block selected after changing indention
 vmap > >gv
 vmap < <gv
+
