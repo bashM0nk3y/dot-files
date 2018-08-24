@@ -1,2 +1,2 @@
 # dot-files
-# some random config files
+some random config files
