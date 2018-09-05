@@ -12,7 +12,7 @@ augroup numbertoggle
   autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
 augroup END
 
-set mouse=a                     "enable mouse
+"set mouse=a                     "enable mouse
 
 set hidden
 set noautowrite               " don't automagically write on :next
@@ -20,7 +20,7 @@ set lazyredraw                " don't redraw when don't have to
 set showmode
 set showcmd
 set nocompatible              " vim, not vi
-set autoindent smartindent    " auto/smart indent
+set smartindent                 " auto/smart indent
 set smarttab                  " tab and backspace are smart
 set expandtab
 set shiftwidth=4
@@ -83,6 +83,13 @@ augroup line_return
         \ endif
 augroup END
 
+" Function to toggle line numbers
+" :set nonumber no longer works after messing with relativenumber
+function! NumberToggle()
+    set number!
+    set relativenumber!
+endfunc
+
 " MAPPINGS
 " 'Y' yanks from cursor to eol intead of yanking entire line like 'yy'
 nnoremap Y y$
@@ -122,3 +129,6 @@ nnoremap <S-Down> <C-w>-
 vmap > >gv
 vmap < <gv
 
+" ctrl+n to toggle line numbers
+" doesn't break dynamic relative/nonrelative functionality
+nnoremap <c-n> :call NumberToggle()<cr>
