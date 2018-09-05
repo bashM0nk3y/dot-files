@@ -6,6 +6,10 @@ set autoread                  " watch for file changes
 "set number                    " line numbers
 set number relativenumber       " hybrid fixed/relative line numbers
 
+" Dynamic line number toggle
+" switches between regular line numbers and relative line numbers
+" normal mode uses hybrid relative numbers
+" insert mode uses normal line numbers
 augroup numbertoggle
   autocmd!
   autocmd BufEnter,FocusGained,InsertLeave * set number relativenumber
