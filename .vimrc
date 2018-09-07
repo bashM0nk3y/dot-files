@@ -1,4 +1,4 @@
-"syntax on
+syntax on
 set background=dark
 set ruler                     " show the line number on the bar
 "set more                      " use more prompt
@@ -89,7 +89,7 @@ augroup END
 
 " Function to toggle line numbers
 " :set nonumber no longer works after messing with relativenumber
-function! NumberToggle()
+function! ToggleNumber()
     set number!
     set relativenumber!
 endfunc
@@ -135,4 +135,4 @@ vmap < <gv
 
 " ctrl+n to toggle line numbers
 " doesn't break dynamic relative/nonrelative functionality
-nnoremap <c-n> :call NumberToggle()<cr>
+nnoremap <c-n> :call ToggleNumber()<cr>

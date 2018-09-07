@@ -97,4 +97,7 @@ export GPG_TTY=$(tty)
 # Refresh gpg-agent tty in case user switches into an X session
 gpg-connect-agent updatestartuptty /bye >/dev/null
 
+#export CURRENT_DESKTOP="KDE"
+export QT_QPA_PLATFORMTHEME="qt5ct"
+
 [[ -f ~/.bash_aliases ]] && . ~/.bash_aliases
