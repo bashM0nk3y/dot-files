@@ -100,4 +100,12 @@ gpg-connect-agent updatestartuptty /bye >/dev/null
 #export CURRENT_DESKTOP="KDE"
 export QT_QPA_PLATFORMTHEME="qt5ct"
 
+# Add IntelliJ IDEA Community to path for CLI usage
+export PATH=$PATH:/opt/idea-IC-182.4505.22/bin
+
+# PIA related
+export PATH=$PATH:/home/cory/bin/pia
+
+[ -r /usr/share/bash-completion/bash_completion   ] && . /usr/share/bash-completion/bash_completion
+
 [[ -f ~/.bash_aliases ]] && . ~/.bash_aliases
