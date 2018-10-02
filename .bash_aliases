@@ -1,8 +1,4 @@
-#  _                _
-# | |__   ___ _ ___| |__  _ __ ___
-# | '_ \ /  _` / __| '_ \| `__/ __|
-# | |_) |  ( | \__ \ | | | | | (__
-# |____/ \_____|___/_| |_|_|  \___|
+# ~/.bash_aliases
 
 alias ls='ls -hN --color=auto --group-directories-first'
 alias ll='ls -l'
