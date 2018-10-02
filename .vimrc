@@ -99,8 +99,8 @@ endfunc
 nnoremap Y y$
 
 " remap j and k to scroll by visual lines
-nnoremap j gj
-nnoremap k gk
+"nnoremap j gj
+"nnoremap k gk
 
 " Use ctrl-[hjkl] to select the active split!
 nmap <silent> <c-k> :wincmd k<CR>
