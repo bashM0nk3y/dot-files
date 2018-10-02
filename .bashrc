@@ -3,7 +3,11 @@
 # | '_ \ /  _` / __| '_ \| `__/ __|
 # | |_) |  ( | \__ \ | | | | | (__
 # |____/ \_____|___/_| |_|_|  \___|
+#
 
+###
+# I need to move parts of this file to a '.*profile' type of file
+###
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -18,17 +22,11 @@ HISTCONTROL=ignoreboth
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
-alias ls='ls --color=auto'
-#alias dir='dir --color=auto'
-#alias vdir='vdir --color=auto'
-alias grep='grep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias egrep='egrep --color=auto'
-
 shopt -s checkwinsize
 shopt -s histappend
 
 ### Bash Prompt Colors ###
+#
 GREEN="\[\033[01;32m\]"
 YELLOW="\[\033[01;33m\]"
 RED="\[\033[01;31m\]"
@@ -42,6 +40,7 @@ RESET="\[\033[00m\]"
 
 ### Bash Prompt Colors - 256 ###
 #EXAMPLE="\[\033[38;5;${ColorNumber}m\]"
+#
 DCYAN="\[\033[38;5;23m\]"
 DCYAN2="\[\033[38;5;24m\]"
 DBLUE="\[\033[38;5;25m\]"
@@ -53,12 +52,11 @@ BRGREEN3="\[\033[38;5;85m\]"
 DRED="\[\033[38;5;124m\]"
 
 # current \u, \h and \w
+#
 BRGREEN4="\[\033[38;5;49m\]"
 DCYAN3="\[\033[38;5;30m\]"
 MGREY="\[\033[38;5;245m\]"
 BLUEGREEN="\[\033[38;5;37m\]"
-
-### Background Colors ###
 
 PROMPT_DIRTRIM=2
 
@@ -66,11 +64,14 @@ PS1="${MGREY}[${BRGREEN4}\u${MGREY}@${BRGREEN4}\h${MGREY}:${BLUEGREEN}\w${MGREY}
 
 export EDITOR=/usr/bin/vim
 export VISUAL=/usr/bin/vim
+export TERMINAL=/usr/bin/terminator
 
 # My scripts
 export PATH=$PATH:~/bin
 
 # Sublime-Text ## Used symlink in /usr/bin
+# Installed sublime via custom repo pointing at:
+#   https://download.sublimetext.com/arch/stable/x86_64
 #export PATH=$PATH:/opt/sublime_text_3
 
 # PyCharm ## Symlink in /usr/bin

@@ -24,12 +24,18 @@ alias updy='sudo pacman -Syu --noconfirm'
 # New aliases, abbreviations for base commands instead of specific commands
 alias p='pacman'
 alias sp='sudo pacman'
+alias sc='systemctl'
+alias ssc='sudo systemctl'
+alias jc='journalctl'
+alias sjc='sudo journalctl'
 alias mkd='mkdir -pv'
 alias v='vim'
 alias sv='sudo vim'
 alias ka='killall'
 alias rel='. ~/.bashrc' # Reload ~/.bashrc
 alias grep='grep --color=auto' # Color grep - highlight desired sequence
+alias lsgrep='ls |grep'
+alias lagrep='ls |grep'
 alias ccat='highlight --out-format=ansi' # Color cat - print file with syntax highlighting
 alias starwars='telnet towel.blinkenlights.nl'
 
