@@ -20,6 +20,8 @@ alias se='pacman -Ss'
 #alias seli='pacman -Qi'
 alias upd='sudo pacman -Syu'
 alias updy='sudo pacman -Syu --noconfirm'
+alias docs='cd ~/Documents'
+alias dl='cd ~/Downloads'
 
 # New aliases, abbreviations for base commands instead of specific commands
 alias p='pacman'
