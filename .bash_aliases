@@ -1,6 +1,6 @@
 # ~/.bash_aliases
 
-alias ls='ls -hN --color=auto --group-directories-first'
+alias ls='ls -hN --color=auto --group-directories-first'    # way better than stadard ls
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -C'
@@ -14,10 +14,10 @@ alias ipa='ip a'
 # Old style 'specific' aliases (aka bad habits...)
 alias in='sudo pacman -S'
 #alias iny='sudo pacman -S --noconfirm'
-alias se='pacman -Ss'
-#alias sei='pacman -Si'
-#alias sel='pacman -Qs'
-#alias seli='pacman -Qi'
+alias se='pacman -Ss'           # Search for package in repos
+#alias sei='pacman -Si'         # Search package in repo with extra info
+#alias sel='pacman -Qs'         # Search package in local db
+#alias seli='pacman -Qi'        # Search package in local db with extra info
 alias upd='sudo pacman -Syu'
 alias updy='sudo pacman -Syu --noconfirm'
 alias docs='cd ~/Documents'
@@ -28,8 +28,8 @@ alias p='pacman'
 alias sp='sudo pacman'
 alias sc='systemctl'
 alias ssc='sudo systemctl'
-alias jc='journalctl'
-alias sjc='sudo journalctl'
+alias jctl='journalctl'
+alias sjctl='sudo journalctl'
 alias mkd='mkdir -pv'
 alias v='vim'
 alias sv='sudo vim'
@@ -41,7 +41,8 @@ alias lagrep='ls |grep'
 alias ccat='highlight --out-format=ansi' # Color cat - print file with syntax highlighting
 alias starwars='telnet towel.blinkenlights.nl'
 
-alias yget='yaourt -G'
+# I only use yaourt to search and pull PKGBUILD's from the AUR
+alias yget='yaourt -G'          
 alias getpkg='yaourt -G'
 alias yse='yaourt -Ss'
 alias ysei='yaourt -Si'
