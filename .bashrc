@@ -112,4 +112,10 @@ export PATH=$PATH:/home/cory/bin/pia
 
 [ -r /usr/share/bash-completion/bash_completion   ] && . /usr/share/bash-completion/bash_completion
 
+### Metasploitable 3 Difficulty ###
+export MS3_DIFFICULTY="easy"
+
+# lansrv env var
+export LANSRV=192.168.2.80
+
 [[ -f ~/.bash_aliases ]] && . ~/.bash_aliases

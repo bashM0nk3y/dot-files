@@ -1,4 +1,4 @@
-syntax on
+syntax enable
 set background=dark
 set ruler                     " show the line number on the bar
 "set more                      " use more prompt
@@ -46,15 +46,19 @@ set ff=unix
 filetype on                   " Enable filetype detection
 filetype indent on            " Enable filetype-specific indenting
 filetype plugin on            " Enable filetype-specific plugins
+
+set path+=$HOME/**
+
 set wildmenu                  " menu has tab completion
-set wildmode=longest:full
+"set wildmode=longest:full
+
 let localleader=','             " <leader> == ,
 set laststatus=2
 
 set modeline                    " Always read modeline stuff from the bottom
                                 " of files.
 
-set winminheight=0          " Allow window split borders to touch.                                
+set winminheight=0          " Allow window split borders to touch.
 set winminwidth=0
 
 "  searching
@@ -136,3 +140,6 @@ vmap < <gv
 " ctrl+n to toggle line numbers
 " doesn't break dynamic relative/nonrelative functionality
 nnoremap <c-n> :call ToggleNumber()<cr>
+
+" Read an empty HTML template and move cursor to title
+nnoremap ,html :-1read $HOME/.vim/.skeleton.html<CR>3jwf<
