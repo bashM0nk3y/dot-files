@@ -105,7 +105,7 @@ let mapleader=' '
 
 " Split Window Stuff
 
-    set splitbelow splitright
+    set splitbelow splitright   " New split window added to the right/below
     set winminheight=0          " Allow window split borders to touch.
     set winminwidth=0
 
