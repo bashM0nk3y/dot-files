@@ -1,4 +1,11 @@
 # ~/.bash_aliases
+#  _                _               _  _
+# | |__   ___ _ ___| |__      ___ _| |(_) ___ _ ___  ___  ___
+# | '_ \ /  _` / __| '_ \    /  _` | || |/  _` / __|/ _ \/ __|
+# | |_) |  ( | \__ \ | | |  |  ( | | || |  ( | \__ \  __/\__ \
+# |____/ \_____|___/_| |_|   \_____|_||_|\_____|___/\___||___/
+#
+
 
 alias ls='ls -hN --color=auto --group-directories-first'
 alias ll='ls -l'
@@ -41,6 +48,7 @@ alias lagrep='ls |grep'
 alias ccat='highlight --out-format=ansi' # Color cat - print file with syntax highlighting
 alias starwars='telnet towel.blinkenlights.nl'
 
+# yaourt aliases
 alias yget='yaourt -G'
 alias getpkg='yaourt -G'
 alias yse='yaourt -Ss'
@@ -49,7 +57,7 @@ alias ysel='yaourt -Qs'
 alias yseli='yaourt -Qi'
 
 alias shred='shred -f -n 10 -z -u'
-
+alias ref='. ~/.bashrc' 
 alias encrypt-gpg='gpg -er cory'
 alias gpg-encrypt='gpg -er cory'
 alias en-gpg='gpg -er cory'
