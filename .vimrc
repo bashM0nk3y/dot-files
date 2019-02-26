@@ -4,7 +4,7 @@
 "  \ V /| | | | | | | | | (__
 "   \_/ |_|_| |_| |_|_|  \___|
 
-let mapleader=' '
+let mapleader=','
 
 " Some basics..
 
@@ -127,6 +127,10 @@ let mapleader=' '
 
 " Mappings and other useful stuff
 
+    " Cycle between buffers
+    nnoremap <PageUp>   :bprevious<CR>
+    nnoremap <PageDown> :bnext<CR>
+
     " Make sure Vim returns to the same line when you reopen a file.
     " Thanks, Amit
     augroup line_return
@@ -140,7 +144,7 @@ let mapleader=' '
     " 'Y' yanks from cursor to eol intead of yanking entire line like 'yy'
     nnoremap Y y$
 
-    " remap j and k to scroll by visual lines
+    " remap j and k to scroll by visual lines (caused bugs somewhere?)
     "nnoremap j gj
     "nnoremap k gk
 

@@ -26,7 +26,10 @@ shopt -s checkwinsize
 shopt -s histappend
 
 ### Bash Prompt Colors ###
-#
+
+# Fixes color in some terminals
+force_color_prompt=yes
+
 GREEN="\[\033[01;32m\]"
 YELLOW="\[\033[01;33m\]"
 RED="\[\033[01;31m\]"
@@ -77,7 +80,7 @@ export PATH=$PATH:~/bin
 # PyCharm ## Symlink in /usr/bin
 #export PATH=$PATH:/opt/pycharm-community-2018.1.2/bin
 
-# Test environment for bash/python/perl/ruby
+# Test environment for ~/bin/bash, ~/bin/python, ~/bin/perl, & ~/bin/ruby
 #export PATH=$PATH:~/bin/python-test:~/bin/bash-test:~/bin/perl-test:~/bin/ruby-test
 
 ## Powerline
